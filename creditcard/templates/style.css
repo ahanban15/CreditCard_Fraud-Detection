@@ -1,0 +1,66 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background: url("https://securityintelligence.com/wp-content/uploads/2016/09/credit-card-fraud-remains-a-risk.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.login h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.login h3{
+    font-size: 30px;
+    color: white;
+}
+
+.login form{
+    display: inline;
+}
+
+input{
+    border: 2px solid blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+input:focus{
+    border: 5px solid blue;
+}
+
+.login .btn{
+    width: 300px;
+    margin-top: 15px;
+}
+
+.login .btn:hover{
+    transition: transform .2s;
+    transform: scale(1.5);    
+}
+
+
+.prediction{
+    color: white;
+    font-size: 60px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
